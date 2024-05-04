@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"
+        android:icon="@drawable/stats___1191_" />
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/multitasking___1440_" />
+    <item
+        android:id="@+id/action_scan"
+        android:title="Search"
+        android:icon="@drawable/focus_horizontal_round_round___840_" />
+    <item
+        android:id="@+id/action_notifications"
+        android:title="Notifications"
+        android:icon="@drawable/profile_round___1342_" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        android:icon="@drawable/globe_network___1294_" />
+</layer-list>

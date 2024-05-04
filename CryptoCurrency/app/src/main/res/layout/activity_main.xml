@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#0F6EFF">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="116dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group_52" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="197dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="21dp"
+        android:text="Name"
+        android:textColor="#FBF9F9"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="317dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/custominput"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="201dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="19dp"
+        android:text="Email"
+        android:textColor="#FDFCFC"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="323dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="41dp"
+        android:background="@drawable/custominput"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <android.widget.Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="311dp"
+        android:background="@drawable/custombutton"
+        android:text="Button"
+        android:textColor="#F4EFEF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
